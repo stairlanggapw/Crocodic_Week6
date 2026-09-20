@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.callback-btn{
+    background-color: #007bff;
+}
+
+.promise-btn{
+    background-color: #28a745;
+}
+
+.async-await-btn{
+    background-color: #ffc107;
+}
+
+.status-message{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-style: italic;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin-bottom: 4px;
+    color: #334155;
+}
+
+.user-posts {
+    margin-left: 20px;
+    color: #334155;
+}
+
+.user-posts ul {
+    margin-bottom: 6px;
+    line-height: 1.4;
+}

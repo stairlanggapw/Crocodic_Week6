@@ -10,23 +10,23 @@
     <h1>Fetch Data using callback, Async or Await, and Promise</h1>
 
     <div class="button-group">
-        <button class="callback-btn">Fetch Data using Callback</button>
-        <button class="promise-btn">Fetch Data using Promise</button>
-        <button class="async-await-btn">Fetch Data using Async/Await</button>
+        <button class="callback-btn" onclick="loadWithCallback()">Fetch Data using Callback</button>
+        <button class="promise-btn" onclick="loadWithPromise()">Fetch Data using Promise</button>
+        <button class="async-await-btn" onclick="loadWithAsyncAwait()">Fetch Data using Async/Await</button>
     </div>
 
-    <div class="status-message">Please click one of the buttons to load the data...</div>
+    <div id="status" class="status-message">Please click one of the buttons to load the data...</div>
 
     <div class="user-info">
         <div class="title">User Info</div>
-        <p class="name"><Strong>Name: </Strong><span class="name"></span></p>
-        <p class="email"><strong>Email: </strong><span class="email"></span></p>
-        <p class="city"><strong>City: </strong><span class="city"></span></p>
+        <p class="name"><strong>Name: </strong><span id="userName" class="name"></span></p>
+        <p class="email"><strong>Email: </strong><span id="userEmail" class="email"></span></p>
+        <p class="city"><strong>City: </strong><span id="userCity" class="city"></span></p>
     </div>
 
     <div>
-        <div class="title"></div>
-        <ul class="userPosts" class="user-post">
+        <div class="title">User Posts (5 Posts)</div>
+        <ul id="userPosts" class="user-posts">
             Data will be displayed here...
         </ul>
     </div>

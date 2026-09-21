@@ -73,6 +73,16 @@ button:hover{
     color: #334155;
 }
 
+.user-list {
+    margin-left: 20px;
+    color: #334155;
+}
+
+.user-list li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
 .user-posts {
     margin-left: 20px;
     color: #334155;
